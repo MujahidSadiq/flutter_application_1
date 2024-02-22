@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,11 +11,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello, World!'),
+          title: Text('Hello World!'),
         ),
         body: Center(
-          child: Text('Hello world',
-          style: TextStyle(fontSize: 49,fontWeight: FontWeight.bold),),
+          child: Text(
+            'Hello world',
+            style: TextStyle(fontSize: 49, fontWeight: FontWeight.bold),
+          ),
         ),
       ),
     );
